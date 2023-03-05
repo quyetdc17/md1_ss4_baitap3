@@ -1,0 +1,111 @@
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    overflow-y: visible !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.34;
+    background-color: #fff;
+    color: #1c1e21;
+    display: block;
+    overflow-y: auto;
+}
+
+/*navigation*/
+nav {
+    display: flex;
+    padding: 10px 30px;
+    width: 100%;
+    gap: 0 40px;
+    border: 1px solid red;
+    justify-items: center;
+    align-items: center;
+    max-height: 100px;
+}
+
+nav input {
+    width: 400px;
+    height: 35px;
+    margin-left: auto;
+}
+
+nav img {
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.nav-rights {
+    display: flex;
+    gap: 0 10px;
+    right: 0;
+    margin-left: auto;
+    flex-wrap: nowrap;
+}
+
+.nav-rights button {
+    background-color: #ffffff;
+    border: 0px;
+    font-size: medium;
+    color: #1162c7;
+}
+
+/*endnavigation*/
+
+ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+li button {
+
+}
+
+ul li {
+    margin-top: 10px;
+}
+
+ul li:active {
+    border-left: 3px solid #1162c7;
+}
+
+ul li:focus {
+    border-left: 5px solid #1162c7;
+}
+
+.bi {
+    font-size: 20px;
+}
+
+label {
+    font-size: 22px;
+    padding-left: 30px;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    border: 1px solid red;
+    gap: 20px;
+}
+
+.main .left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.main .main-cnt {
+    display: flex;
+    flex: 3;
+}
+
+.main .right {
+    display: flex;
+    flex: 1;
+}
